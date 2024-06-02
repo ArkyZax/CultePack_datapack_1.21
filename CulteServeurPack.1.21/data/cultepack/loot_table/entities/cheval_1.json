@@ -38,18 +38,18 @@
 								  "Tags": [
 									"cheval_1"
 								  ],
-								  "Attributes": [
+								  "attributes": [
 									{
-									  "Name": "horse.jump_strength",
-									  "Base": 1
+									  "id": "horse.jump_strength",
+									  "base": 1
 									},
 									{
-									  "Name": "generic.movement_speed",
-									  "Base": 0.3
+									  "id": "generic.movement_speed",
+									  "base": 0.3
 									},
 									{
-									  "Name": "generic.max_health",
-									  "Base": 10
+									  "id": "generic.max_health",
+									  "base": 10
 									}
 								  ]
 								}
