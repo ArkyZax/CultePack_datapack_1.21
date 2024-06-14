@@ -151,7 +151,14 @@
 								  ]
 								}
 							  }
-						}
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+							  "cultepack:ice_attack": 1
+							},
+							"add": true
+						  }
 					]
 				}
 			]

@@ -156,7 +156,14 @@
 								  ]
 								}
 							  }
-						  }
+						  },
+						  {
+							  "function": "minecraft:set_enchantments",
+							  "enchantments": {
+								"cultepack:poison_res": 1
+							  },
+							  "add": true
+							}
 					]
 				},
 				{
@@ -193,7 +200,15 @@
 								  ]
 								}
 							  }
-						}
+							  
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments": {
+							  "cultepack:poison_attack": 0
+							},
+							"add": true
+						  }
 					]
 				}
 			]
