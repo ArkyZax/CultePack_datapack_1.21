@@ -10,7 +10,18 @@
       "grass_color": 10347037,
       "foliage_color": 10417204
     },
-    "spawners": {},
+    "spawners": {
+      "monster": [
+			{
+				"type": "minecraft:husk",
+				"weight": 1,
+				"minCount": 1,
+				"maxCount": 3
+			}
+    ]
+
+
+    },
     "spawn_costs": {},
     "carvers": {"air": [
      

@@ -27,8 +27,8 @@
 				"maxCount": 3
 			},
 			{
-				"type": "minecraft:cave_spider",
-				"weight": 1,
+				"type": "minecraft:bogged",
+				"weight": 2,
 				"minCount": 1,
 				"maxCount": 1
 			},
@@ -40,7 +40,7 @@
 			},
 			{
 				"type": "minecraft:drowned",
-				"weight": 2,
+				"weight": 1,
 				"minCount": 3,
 				"maxCount": 6
 			}

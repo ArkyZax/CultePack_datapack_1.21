@@ -14,6 +14,14 @@
       }
     },
     "spawners": {
+      "monster": [
+        {
+          "type": "minecraft:vex",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ],
       "creature": [
         {
           "type": "minecraft:goat",
@@ -29,7 +37,12 @@
         }
       ]
     },
-    "spawn_costs": {},
+    "spawn_costs": {
+      "minecraft:vex": {
+        "energy_budget": 0.42,
+        "charge": 0.7
+      }
+      },
     "carvers": {},
     "features": [
         ["cultepack:sapin"],
