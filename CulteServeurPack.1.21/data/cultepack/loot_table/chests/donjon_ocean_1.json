@@ -83,52 +83,24 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
-					"name": "minecraft:shield",
+					"weight": 1,
+					"name": "minecraft:enchanted_book",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
-							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[FORCE]\",\"italic\":true,\"color\":\"dark_red\"}]",
+							"components": {
+								
 								"minecraft:lore": [
-								  "[{\"text\":\"Donne un effet de force\"}]",
-								  "[{\"text\":\"niveau 1\",\"italic\":true},{\"text\":\"\",\"italic\":false}]",
-								  "[{\"text\":\"\",\"italic\":false}]"
-								],
-								"minecraft:base_color": "orange",
-								"minecraft:banner_patterns": [
-								  {
-									"color": "red",
-									"pattern": "bricks"
-								  },
-								  {
-									"color": "white",
-									"pattern": "small_stripes"
-								  },
-								  {
-									"color": "white",
-									"pattern": "curly_border"
-								  },
-								  {
-									"color": "light_blue",
-									"pattern": "rhombus"
-								  },
-								  {
-									"color": "white",
-									"pattern": "border"
-								  },
-								  {
-									"color": "white",
-									"pattern": "flower"
-								  }
-								],
-								"minecraft:custom_data": {
-								  "Tags": [
-									"shield_force_1"
-								  ]
-								}
+								  "[{\"text\":\"-Bague\"}]"
+								]
+							}
+						},
+							{
+							  "function": "minecraft:set_enchantments",
+							  "enchantments": {
+								"cultepack:force": 1
 							  }
-						}
+							}
 					]
 				},
 				{

@@ -38,40 +38,24 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:shield",
+					"weight": 1,
+					"name": "minecraft:enchanted_book",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
-							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[VISION]\",\"italic\":true,\"color\":\"dark_red\"}]",
+							"components": {
+								
 								"minecraft:lore": [
-								  "[{\"text\":\"Donne un effet de vision nocturne\"}]",
-								  "[{\"text\":\"niveau 1\",\"italic\":true},{\"text\":\"\",\"italic\":false}]",
-								  "[{\"text\":\"\",\"italic\":false}]"
-								],
-								"minecraft:base_color": "black",
-								"minecraft:banner_patterns": [
-								  {
-									"color": "white",
-									"pattern": "flower"
-								  },
-								  {
-									"color": "red",
-									"pattern": "globe"
-								  },
-								  {
-									"color": "white",
-									"pattern": "circle"
-								  }
-								],
-								"minecraft:custom_data": {
-								  "Tags": [
-									"shield_night"
-								  ]
-								}
+								  "[{\"text\":\"-Bague\"}]"
+								]
+							}
+						},
+							{
+							  "function": "minecraft:set_enchantments",
+							  "enchantments": {
+								"cultepack:nocturne": 1
 							  }
-						}
+							}
 					]
 				},
 				{

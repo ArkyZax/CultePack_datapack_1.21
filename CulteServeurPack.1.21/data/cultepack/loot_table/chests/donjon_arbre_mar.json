@@ -1,6 +1,8 @@
 {
 	"type": "minecraft:chest",
 	"pools": [
+	
+		  
 		{
 			"rolls": {
 			  "min": 1,
@@ -100,69 +102,22 @@
                 {
 					"type": "minecraft:item",
 					"weight": 2,
-					"name": "minecraft:shield",
+					"name": "minecraft:enchanted_book",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:custom_name": "[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[POISON]\",\"italic\":true,\"color\":\"dark_red\"}]",
+								
 								"minecraft:lore": [
-								  "[{\"text\":\"Donne un effet de\"}]",
-								  "[{\"text\":\"poison resistance\",\"italic\":true},{\"text\":\"\",\"italic\":false}]",
-								  "[{\"text\":\"\",\"italic\":false}]"
-								],
-								"minecraft:base_color": "lime",
-								"minecraft:banner_patterns": [
-								  {
-									"color": "green",
-									"pattern": "gradient"
-								  },
-								  {
-									"color": "green",
-									"pattern": "gradient_up"
-								  },
-								  {
-									"color": "black",
-									"pattern": "border"
-								  },
-								  {
-									"color": "black",
-									"pattern": "rhombus"
-								  },
-								  {
-									"color": "black",
-									"pattern": "creeper"
-								  },
-								  {
-									"color": "lime",
-									"pattern": "flower"
-								  },
-								  {
-									"color": "green",
-									"pattern": "skull"
-								  },
-								  {
-									"color": "lime",
-									"pattern": "circle"
-								  },
-								  {
-									"color": "lime",
-									"pattern": "stripe_middle"
-								  }
-								],
-								"minecraft:custom_data": {
-								  "Tags": [
-									"shield_poison_res"
-								  ]
-								}
-							  }
-						  },
-						  {
+								  "[{\"text\":\"-Bague\"}]"
+								]
+							}
+						},
+							{
 							  "function": "minecraft:set_enchantments",
 							  "enchantments": {
 								"cultepack:poison_res": 1
-							  },
-							  "add": true
+							  }
 							}
 					]
 				},
@@ -180,6 +135,7 @@
 						}
 					]
 				},
+				
 				{
 					"type": "minecraft:item",
 					"weight": 1,
@@ -205,7 +161,7 @@
 						{
 							"function": "minecraft:set_enchantments",
 							"enchantments": {
-							  "cultepack:poison_attack": 0
+							  "cultepack:poison_attack": 1
 							},
 							"add": true
 						  }

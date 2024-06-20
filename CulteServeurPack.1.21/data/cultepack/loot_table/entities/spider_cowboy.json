@@ -46,6 +46,36 @@
 			]
 		},
 		{
+			"rolls": {
+				"min": 1,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								
+								"minecraft:lore": [
+								  "[{\"text\":\"-Arc\"}]"
+								]
+							}
+						},
+							{
+							  "function": "minecraft:set_enchantments",
+							  "enchantments": {
+								"cultepack:fleche_foudre": 1
+							  }
+							}
+					]
+				}
+			]
+		},
+		{
 			"rolls": 1,
 			"entries": [
 				{

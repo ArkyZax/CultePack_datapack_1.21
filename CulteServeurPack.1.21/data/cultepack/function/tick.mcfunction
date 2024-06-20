@@ -27,8 +27,7 @@ execute as @e[type=player,nbt={attributes:[{base:60d}]}] unless predicate cultep
 execute as @e[type=player,nbt={Inventory:[{id:"minecraft:netherite_chestplate"},{components:{"minecraft:custom_data":{Tags:["cultestuff"]}}}]}] at @s if predicate cultepack:cultestuffon run function cultepack:events/addcoeur
 execute as @e[type=player,nbt={Inventory:[{id:"minecraft:netherite_chestplate"},{components:{"minecraft:custom_data":{Tags:["cultestuff", "updated_1"]}}}]}] at @s if predicate cultepack:cultestuffon2 run function cultepack:events/addcoeur
 
-#bouclier
-execute as @e[type=player,nbt={Inventory:[{id:"minecraft:shield"},{Slot:-106b}]}] run function cultepack:events/shield/shieldeffect
+
 
 #cosmetic
 execute as @e[type=player] if predicate cultepack:bague_feu at @s run function cultepack:events/cosmetic/bague_feu_effet

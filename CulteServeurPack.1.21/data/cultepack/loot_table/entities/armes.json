@@ -101,8 +101,8 @@
 								  "flame": 1,
 								  "infinity": 1,
 								  "mending": 1,
-								  "power": 10,
-								  "unbreaking": 10
+								  "power": 6,
+								  "unbreaking": 6
 								},
 								"minecraft:custom_name": "[{\"text\":\"Arc Démoniaque\",\"italic\":false,\"color\":\"dark_red\",\"underlined\":false,\"bold\":false}]",
 								"minecraft:lore": [

@@ -53,59 +53,23 @@
 				{
 					"type": "minecraft:item",
 					"weight": 2,
-					"name": "minecraft:shield",
+					"name": "minecraft:enchanted_book",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
-							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[JUMP]\",\"italic\":true,\"color\":\"dark_red\"}]",
+							"components": {
+								
 								"minecraft:lore": [
-								  "[{\"text\":\"Donne un effet de jump\"}]",
-								  "[{\"text\":\"boost niveau 1\",\"italic\":true},{\"text\":\"\",\"italic\":false}]",
-								  "[{\"text\":\"\",\"italic\":false}]"
-								],
-								"minecraft:base_color": "cyan",
-								"minecraft:banner_patterns": [
-								  {
-									"color": "white",
-									"pattern": "circle"
-								  },
-								  {
-									"color": "orange",
-									"pattern": "stripe_bottom"
-								  },
-								  {
-									"color": "black",
-									"pattern": "flower"
-								  },
-								  {
-									"color": "orange",
-									"pattern": "triangle_top"
-								  },
-								  {
-									"color": "black",
-									"pattern": "cross"
-								  },
-								  {
-									"color": "black",
-									"pattern": "triangle_bottom"
-								  },
-								  {
-									"color": "orange",
-									"pattern": "curly_border"
-								  },
-								  {
-									"color": "black",
-									"pattern": "triangles_bottom"
-								  }
-								],
-								"minecraft:custom_data": {
-								  "Tags": [
-									"shield_jump_1"
-								  ]
-								}
+								  "[{\"text\":\"-Bague\"}]"
+								]
+							}
+						},
+							{
+							  "function": "minecraft:set_enchantments",
+							  "enchantments": {
+								"cultepack:jump": 1
 							  }
-						}
+							}
 					]
 				},
 				{
@@ -160,52 +124,24 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:shield",
+					"weight": 2,
+					"name": "minecraft:enchanted_book",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
-							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[SPEED]\",\"italic\":true,\"color\":\"dark_red\"}]",
+							"components": {
+								
 								"minecraft:lore": [
-								  "[{\"text\":\"Donne un effet de speed\"}]",
-								  "[{\"text\":\"niveau 1\",\"italic\":true},{\"text\":\"\",\"italic\":false}]",
-								  "[{\"text\":\"\",\"italic\":false}]"
-								],
-								"minecraft:base_color": "black",
-								"minecraft:banner_patterns": [
-								  {
-									"color": "pink",
-									"pattern": "small_stripes"
-								  },
-								  {
-									"color": "black",
-									"pattern": "stripe_middle"
-								  },
-								  {
-									"color": "black",
-									"pattern": "border"
-								  },
-								  {
-									"color": "black",
-									"pattern": "cross"
-								  },
-								  {
-									"color": "pink",
-									"pattern": "circle"
-								  },
-								  {
-									"color": "black",
-									"pattern": "circle"
-								  }
-								],
-								"minecraft:custom_data": {
-								  "Tags": [
-									"shield_speed_1"
-								  ]
-								}
+								  "[{\"text\":\"-Bague\"}]"
+								]
+							}
+						},
+							{
+							  "function": "minecraft:set_enchantments",
+							  "enchantments": {
+								"cultepack:speed": 1
 							  }
-						}
+							}
 					]
 				}
 			]

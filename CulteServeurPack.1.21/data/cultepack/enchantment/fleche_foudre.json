@@ -1,6 +1,6 @@
 {
-    "description": "Résistance au Poison",
-    "supported_items": "minecraft:popped_chorus_fruit",
+    "description": "Flèche de Foudre",
+    "supported_items": "minecraft:bow",
     "weight": 1,
     "max_level": 1,
     "min_cost": {
@@ -13,14 +13,16 @@
     },
     "anvil_cost": 0,
     "slots": [
-      "offhand"
+      "mainhand"
     ],
     "effects": {
-      "minecraft:tick": [
+      "minecraft:post_attack": [
         {
+          "enchanted": "attacker",
+          "affected": "victim",
           "effect": {
-            "type": "minecraft:run_function",
-            "function": "cultepack:events/bague/poison_clear"
+            "type": "minecraft:summon_entity",
+            "entity": "minecraft:lightning_bolt"
           }
         }
       ]

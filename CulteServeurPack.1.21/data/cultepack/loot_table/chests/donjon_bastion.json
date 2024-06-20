@@ -24,6 +24,20 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:obsidian",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 10,
+								"max": 20
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
 					"weight": 2,
 					"name": "minecraft:piglin_head",
 					"functions": [
@@ -53,51 +67,23 @@
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"name": "minecraft:shield",
+					"name": "minecraft:enchanted_book",
 					"functions": [
 						{
 							"function": "minecraft:set_components",
-							"components":{
-								"minecraft:custom_name": "[{\"text\":\"Bouclier \",\"italic\":false,\"color\":\"gold\"},{\"text\":\"[FIRE]\",\"italic\":true,\"color\":\"dark_red\"}]",
+							"components": {
+								
 								"minecraft:lore": [
-								  "[{\"text\":\"Donne un effet de\"}]",
-								  "[{\"text\":\"fire resistance\",\"italic\":true},{\"text\":\"\",\"italic\":false}]",
-								  "[{\"text\":\"\",\"italic\":false}]"
-								],
-								"minecraft:base_color": "orange",
-								"minecraft:banner_patterns": [
-								  {
-									"color": "black",
-									"pattern": "straight_cross"
-								  },
-								  {
-									"color": "orange",
-									"pattern": "bricks"
-								  },
-								  {
-									"color": "orange",
-									"pattern": "stripe_middle"
-								  },
-								  {
-									"color": "black",
-									"pattern": "flower"
-								  },
-								  {
-									"color": "orange",
-									"pattern": "triangle_top"
-								  },
-								  {
-									"color": "red",
-									"pattern": "gradient_up"
-								  }
-								],
-								"minecraft:custom_data": {
-								  "Tags": [
-									"shield_fire_res"
-								  ]
-								}
+								  "[{\"text\":\"-Bague\"}]"
+								]
+							}
+						},
+							{
+							  "function": "minecraft:set_enchantments",
+							  "enchantments": {
+								"cultepack:fire_res": 1
 							  }
-						}
+							}
 					]
 				},
 				{
