@@ -1,22 +1,21 @@
 {
 	"type": "minecraft:jigsaw",
 	"biomes": [
-		"cultepack:zone_morte",
-        "cultepack:desert_de_glace",
-        "cultepack:foret_mutante",
-        "cultepack:marecage",
-		"cultepack:terre_magique",
-		"cultepack:montagne",
-		"cultepack:bois_calme",
-		"cultepack:desert"
-	],
+			   "cultepack:desert"
+],
 	"step": "surface_structures",
 	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
-	"start_pool": "cultepack:portail",
+	"start_pool": "cultepack:donjon_desert_big_temple",
 	"size": 6,
 	"start_height": {
-		"absolute": 1
+		"type": "minecraft:uniform",
+		"min_inclusive": {
+			"absolute": 0
+		},
+		"max_inclusive": {
+			"absolute": 2
+		}
 	},
 	"project_start_to_heightmap": "WORLD_SURFACE_WG",
 	"max_distance_from_center": 80,
