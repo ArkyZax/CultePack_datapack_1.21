@@ -50,7 +50,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								
+								"minecraft:custom_model_data": 88001,
 								"minecraft:lore": [
 								  "[{\"text\":\"-Bague\"}]"
 								]
